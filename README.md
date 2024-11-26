@@ -1,6 +1,6 @@
 # SQLite-Lite: A Lightweight SQLite-Inspired Database  
 
-**By Aditya Senapati**
+**By Aditya Senapati**  
 SQLite-Lite is a simple database system implemented in C++ that mimics basic functionality of SQLite. It provides users with the ability to create, manage, and interact with tables using SQL-like commands, all through a command-line interface.  
 
 ## **Features**  
