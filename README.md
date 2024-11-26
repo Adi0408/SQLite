@@ -33,6 +33,8 @@ Here’s a sample session demonstrating the usage:
 SQLite> create table users    
 Table users created.    
 
+SQLite> open table user
+
 SQLite> insert users 1 alice alice@example.com    
 Executed.    
 
@@ -41,6 +43,8 @@ SQLite> select users
 
 SQLite> delete users   
 All rows deleted.    
+
+SQLite> close table users
 
 SQLite> .exit    
 Saving tables to file.  
