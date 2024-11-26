@@ -26,3 +26,31 @@ Start the program and interact with the database using the following commands:
   ```sql
   create table table_name
 
+## Examples
+Here’s a sample session demonstrating the usage:
+
+```plaintext
+SQLite> create table users    
+Table users created.    
+
+SQLite> insert users 1 alice alice@example.com    
+Executed.    
+
+SQLite> select users    
+(1, alice, alice@example.com)    
+
+SQLite> delete users   
+All rows deleted.    
+
+SQLite> .exit    
+Saving tables to file.  
+```
+
+## **Challenges Faced**
+- Implementing data persistence with serialization and deserialization.  
+- Managing table storage and ensuring smooth interaction with files.  
+
+## **Upcoming Features**
+- Support for foreign key constraints.  
+- Allowing multiple columns with defined data types.  
+- Adding more advanced SQL-like functionality.
