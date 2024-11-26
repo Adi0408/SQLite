@@ -11,7 +11,7 @@ SQLite-Lite is a simple database system implemented in C++ that mimics basic fun
 
 ## **Setup Instructions**  
 1. Clone or download the repository.  
-2. Open the `sqlite_lite.cpp` file in your favorite C++ IDE or text editor.  
+2. Open the `SQLite.cpp` file in your favorite C++ IDE or text editor.  
 3. Compile and run the program using any C++ compiler (e.g., GCC, Visual Studio, or CLion).  
 
 ## **How to Use**  
